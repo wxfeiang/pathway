@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* 2019-10-26 author: 王鹏 */
+/*-----------------定义变量方法--------------*/
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+/*-----------------定义变量方法--------------*/
+/*-----------------顶部--------------*/
+.g_top {
+  height: 108px;
+  background: #3491bf;
+}
+
+.g_top .logo {
+  padding: 0 30px;
+  line-height: 108px;
+}
+
+.g_top .logo img {
+  width: 178px;
+  height: 42px;
+}
+
+.g_top .g_title {
+  text-indent: 5em;
+  font: 2.5em/108px ' MicrosoftYaHe';
+  color: #fff;
+}
+
+.g_top .top_right {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  font: bold 1.8em/64px  "MicrosoftYaHe";
+  color: #fff;
+}
+
+/********顶部结束***********/
+/********中间主体***********/
+.layout_box {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+
+.sider_left {
+  position: absolute;
+  left: 0;
+  width: 250px;
+  height: 100%;
+}
+
+.sider_left .side_left_top {
+  margin: 10px 0 0 0;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #3491bf;
+}
+
+.sider_left .side_left_top h3 {
+  text-align: center;
+  font: 18px/30px ' MicrosoftYaHe';
+  color: #fff;
+  background: #3491bf;
+}
+
+.sider_left .side_left_top .img_tip {
+  padding: 10px;
+  text-align: center;
+  background: #2883a7;
+}
+
+.sider_left .side_left_top .msg_warr {
+  background: #7ccbf1;
+  height: 200px;
+  padding: 0 2px 4px;
+}
+
+.sider_left .sider_left_centrer {
+  padding: 0 2px 4px 0;
+  margin: 10px 0 0 0;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #3491bf;
+}
+
+.sider_left .sider_left_centrer h3 {
+  text-align: center;
+  font: 18px/30px ' MicrosoftYaHe';
+  color: #fff;
+  background: #3491bf;
+}
+
+.sider_left .sider_left_centrer .tips_item {
+  padding: 0 0 0 20px;
+  background: #fff;
+}
+
+.sider_left .sider_left_centrer .tips_item li {
+  line-height: 50px;
+}
+
+.sider_left .sider_left_centrer .tips_item li span {
+  margin: 0 0 0 40px;
+}
+
+.layout_right {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 0 0 260px;
+}
+
+.layout_right .right_body {
+  overflow-y: auto;
+  height: 88vh;
+}
+
+.layout_right .right_body .center_warpbox h2 {
+  font: 36px/88px "MicrosoftYaHe";
+  text-align: center;
+}
+
+.layout_right .right_body .center_warpbox .circuit_box {
+  height: 75vh;
+}
+
+.cricle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.cricle_blue {
+  background: #181af9;
+}
+
+.cricle_green {
+  background: #51e51f;
+}
+
+.cricle_red {
+  background: #f92220;
+}
+
+.cricle_white {
+  background: #ffffff;
+}
+
+.cricle_blue {
+  background: #181af9;
+}
+
+/********中间结束***********/
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+  .g_top .g_title {
+    text-indent: 5em;
+    font: 2em/108px ' MicrosoftYaHe';
+  }
+  .g_top .top_right {
+    font: bold 1.5em/64px  "MicrosoftYaHe";
+  }
+}
